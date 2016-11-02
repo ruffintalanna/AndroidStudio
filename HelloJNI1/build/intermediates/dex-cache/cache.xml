@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-appcompat-v7-23.4.0_c6ec6625473fd18b586ef9e8f5f27495c1a60315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-support-vector-drawable-23.4.0_6878c0ff9b9a4a76cfded71fc163a34abcbb3578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/constraint-layout-solver-1.0.0-alpha7_0b95234001c3129d5cd115fc6d6650a8cbfdeadc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/internal_impl-23.4.0_cec095004b9c2a7fe435f2e447304c561b79f07a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-animated-vector-drawable-23.4.0_9b0eb9cfc1856505fe9144583c8b859a6c8a87bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/support-annotations-23.4.0_6396e9192de274f34121aab2eb4b8ba6d64894c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha7_dbb73129b3b5a009b3b1659b9830c691063bad97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/talannaruffin/AndroidStudioProjects/HelloJNI1/app/build/intermediates/pre-dexed/arm7/debug/com.android.support-support-v4-23.4.0_24a37e4c4d05b68ca398da1157c996aef476ed35.jar" />
+    </item>
+
+</items>
