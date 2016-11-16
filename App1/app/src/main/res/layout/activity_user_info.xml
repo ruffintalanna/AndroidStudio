@@ -21,6 +21,17 @@
         android:layout_marginTop="31dp"
         android:id="@+id/et_Name" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_age"
+        android:layout_alignBaseline="@+id/tv_age"
+        android:layout_alignBottom="@+id/tv_age"
+        android:layout_alignStart="@+id/et_Name"
+        android:layout_alignEnd="@+id/et_Name" />
+
     <TextView
         android:text="Name"
         android:layout_width="wrap_content"
@@ -35,56 +46,46 @@
         android:text="Age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/tv_age"
         android:layout_below="@+id/et_Name"
         android:layout_alignStart="@+id/tv_name"
-        android:layout_marginTop="68dp"
-        android:id="@+id/tv_age" />
+        android:layout_alignEnd="@+id/tv_name" />
 
     <TextView
         android:text="Height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_age"
-        android:layout_alignStart="@+id/tv_age"
-        android:layout_marginTop="114dp"
-        android:id="@+id/tv_height" />
-
-    <TextView
-        android:text="Weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/tv_height"
-        android:layout_marginBottom="53dp"
-        android:id="@+id/tv_weight" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_above="@+id/tv_weight"
-        android:layout_alignEnd="@+id/et_Name"
-        android:layout_marginBottom="92dp"
-        android:id="@+id/et_height" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/et_height"
-        android:layout_marginBottom="39dp"
-        android:id="@+id/et_weight" />
+        android:id="@+id/tv_height"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/tv_age" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/et_age"
-        android:layout_alignBaseline="@+id/tv_age"
-        android:layout_alignBottom="@+id/tv_age"
-        android:layout_alignStart="@+id/et_Name" />
+        android:layout_alignTop="@+id/tv_height"
+        android:layout_alignStart="@+id/et_age"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginTop="67dp"
+        android:id="@+id/editText2" />
+
+    <TextView
+        android:text="Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_weight"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/tv_height" />
+
 </RelativeLayout>
