@@ -147,7 +147,7 @@ public class MainA extends AppCompatActivity implements SensorEventListener {
 
             long curTime = System.currentTimeMillis();
 
-            if ((curTime-lastUpdate) > 100){
+            if ((curTim e-lastUpdate) > 100){
                 long diffTime = (curTime - lastUpdate);
                 lastUpdate = curTime;
 

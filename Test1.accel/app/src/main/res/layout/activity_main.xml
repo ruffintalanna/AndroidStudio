@@ -50,9 +50,8 @@
                 android:layout_gravity="center_vertical"
                 android:textColor="@android:color/white"/>
         </FrameLayout>
-        </LinearLayout>
 
-        <LinearLayout
+</LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:weightSum="6"
@@ -102,7 +101,7 @@
                     android:layout_gravity="center_vertical"
                     android:textColor="@android:color/white"/>
             </FrameLayout>
-        </LinearLayout>
+        </>
 
 
 

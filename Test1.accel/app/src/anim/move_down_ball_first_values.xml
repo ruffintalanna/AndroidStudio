@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<resources></resources>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fillAfter="true"
-    android:interpolator="@android:anim/bounce_interpolator">
+android:fillAfter="true"
+android:interpolator="android:anim/bounce_interpolator">
 
     <scale
         android:duration="1500"
