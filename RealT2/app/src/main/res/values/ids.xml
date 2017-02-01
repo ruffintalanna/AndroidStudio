@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnStart" type="id" />
+    <item name="btnStop" type="id" />
+    <item name="btnUpload" type="id" />
+    <item name="chart_container" type="id" />
+</resources>
