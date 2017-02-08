@@ -4,6 +4,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
@@ -16,10 +17,13 @@ public class MainActivity extends AppCompatActivity {
     private double lastXPoint =2;
     private Random rnd = new Random();
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         GraphView graph = (GraphView) findViewById(R.id.graph);
         series = new LineGraphSeries<>(new DataPoint[]{
