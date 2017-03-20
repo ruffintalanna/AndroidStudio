@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     // to plot a line diagram
     private LineGraphSeries<DataPoint> series;
-    private double lastXPoint = //2
+    private double lastXPoint =
     //
             {
 
@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         //Accelerator Sensor
         SM.registerListener(this, mySensor, SensorManager.SENSOR_DELAY_NORMAL);
 
-        //Assign TextView
-        xText = (TextView) findViewById(R.id.xTest);
-        yText = (TextView) findViewById(R.id.yText);
-        zText = (TextView) findViewById(R.id.zText);
+        //Assign TextView Do we want to display numerically x,y, and z.
+        //xText = (TextView) findViewById(R.id.xtest);
+        //yText = (TextView) findViewById(R.id.yText);
+        //zText = (TextView) findViewById(R.id.zText);
 
         //data
         GraphView graph = (GraphView) findViewById(R.id.graph);
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+        // keeps axes consistent
         xText.setText("X: " + event.values[0]);
         yText.setText("Y: " + event.values[1]);
         zText.setText("Z: " + event.values[2]);
